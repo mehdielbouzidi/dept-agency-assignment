@@ -4,6 +4,7 @@ I found this to be a very interesting and fun assignment with some easy and chal
 
 As for what has been implemented, I'm okay with the result. The execution and process could have been more efficient. There is still quite some refactoring for example and not everything from the design has been implemented. With the given time that was quite challenging and something I need to work on. Overall I learned a lot and enjoyed the process as well.
 
+Live demo can be found on: https://splendid-mermaid-6635e0.netlify.app/
 
 ## Installation:
 
