@@ -1,0 +1,115 @@
+.footer {
+    width: 100%;
+    background-color: $white;
+    flex-direction: row;
+
+    .footer__wrapper {
+        width: 90%;
+        background-color: $black;
+
+        img {
+            filter: invert(99%) sepia(6%) saturate(7%) hue-rotate(137deg) brightness(105%) contrast(100%);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            align-self: center;
+        
+            li {
+                @extend .pr-3;
+                display: inline-block;
+    
+                &:last-child {
+                    margin-left: auto;
+                    padding-right: 0;
+                }
+            }
+    
+            a {
+                text-decoration: none;
+                color: $white;
+                text-transform: uppercase;
+            }
+        }
+
+        .footer__nav {
+            @extend .pb-4;
+            border-bottom: 1px solid $dark-gray;
+        }
+    
+        .footer__logo {
+            @extend .pr-4;
+            width: 120px;
+        }
+
+        .footer__socials {
+            margin-left: auto;
+    
+            img {
+                height: 20px;
+            }
+        }
+
+        .footer__information {
+            @extend .pt-5;
+            font-size: 1.4rem;
+            color: $dark-gray;
+            font-family: $secondary-font;
+        }
+    }
+    
+    .footer__scroll-block {
+        justify-content: center;
+        width: 10%;
+
+        .footer__top-button {
+            color: $blue;
+            width: 70px;
+            padding: 10px;
+            font-size: 3rem;
+            font-family: 'Teko', sans-serif;
+            border: none;
+            background: none;
+            transition: transform 0.2s;
+        
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+    }
+
+    @media (max-width: $medium-devices) {
+        .footer__wrapper {
+            width: 100%;
+
+            ul li {
+                display: block;
+                padding: 0;
+            }
+
+            .footer__nav {
+                font-size: 4rem;
+            }
+
+            .footer__information, .footer__nav {
+                padding: 0;
+            }
+
+            .footer__socials {
+                display: block;
+                align-self: flex-start;    
+                text-align: center; 
+                
+                img {
+                    height: 40px;
+                }
+            }
+        }
+
+        .footer__logo, .footer__scroll-block {
+            display: none;
+        }
+    }
+}

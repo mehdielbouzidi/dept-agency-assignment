@@ -1,0 +1,16 @@
+.case-filter {
+    text-align: right;
+
+    label {
+        color: $dark-gray;
+        font-size: 3rem;
+    }
+
+    select {
+        border: none;
+        font-family: 'Teko', sans-serif;
+        font-size: 3rem;
+        border-bottom: 1px solid $black;
+        height: 4rem;
+    }
+}

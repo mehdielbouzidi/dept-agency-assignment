@@ -1,0 +1,44 @@
+.case {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+
+    .case__item {
+        position: relative;
+        bottom: 0;
+        transition: bottom ease 0.2s;
+
+        .case__image {
+            width: 100%;
+        }
+
+        .case__link {
+            color: $blue;
+            font-family: $secondary-font;
+            font-weight: 900;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+    
+            &:before {
+                @extend .pr-1;
+                content: '►';
+                display: inline-block;
+                color: $blue;
+                transition: 200ms linear;
+                transition-property: background-color, margin;
+            }
+        }
+
+        &:hover {
+            bottom: 5px;
+            img {
+                box-shadow: 0 2px 14px 1px rgba(0, 0, 0, 0.2),
+                0 5px 6px 0px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    @media (max-width: $small-devices) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

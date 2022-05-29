@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+// Fonts
+$primary-font: 'Teko', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+// Media screens
+$small-devices: 767.98px;
+$medium-devices: 991.98px;
+$large-devices: 1199.98px;
+
+// Colors
+$light-gray: #F0F4F4;
+$dark-gray: #808080;
+$white: white;
+$black: black;
+$blue: blue;
+
+// Globals
+html {
+    font-family: $primary-font;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 2.0rem;
+    min-width: 385px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 9rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+p {
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4, h3 {
+    font-weight: 100;
+    margin: 0;
+    color: $black;
+    font-size: 3rem;
+}
+
+h4 {
+    font-weight: 600;
+    color: $dark-gray;
+    text-transform: uppercase;
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+}
+
+// Paddings and margins
+@mixin padding-margin($num) {
+    @if ($num) {
+        @for $i from 0 through 5 {
+            .p-#{$num * $i} {
+                padding: $num * ($i * 10) + px;
+            }
+
+            .pt-#{$num * $i} {
+                padding-top: $num * ($i * 10) + px;
+            }
+
+            .pb-#{$num * $i} {
+                padding-bottom: $num * ($i * 10) + px;
+            }
+
+            .pl-#{$num * $i} {
+                padding-left: $num * ($i * 10) + px;
+            }
+
+            .pr-#{$num * $i} {
+                padding-right: $num * ($i * 10) + px;
+            }
+
+            .plr-#{$num * $i}{
+                padding-left: $num * ($i * 10) + px;
+                padding-right: $num * ($i * 10)+ px;
+            }
+
+            .ptb-#{$num * $i}{
+                padding-bottom: $num * ($i * 10) + px;
+                padding-top: $num * ($i * 10) + px;
+            }
+
+            .m-#{$num * $i} {
+                margin: $num * ($i * 10) + px;
+            }
+
+            .mlr-#{$num * $i} {
+                margin-left: $num * ($i * 10) + px;
+                margin-right: $num * ($i * 10) + px;
+            }
+
+            .mb-#{$num * $i} {
+                margin-bottom: $num * ($i * 10) + px;
+            }
+
+            .mtb-#{$num * $i} {
+                margin-bottom: $num * ($i * 10) + px;
+                margin-top: $num * ($i * 10) + px;
+            }
+        }
+    }
+}
+
+@include padding-margin(1);

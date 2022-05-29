@@ -1,0 +1,46 @@
+[{
+        "label": "Home",
+        "link": "/",
+        "footer": false
+    },
+    {
+        "label": "Work",
+        "link": "/work",
+        "footer": true
+    },
+    {
+        "label": "Culture",
+        "link": "/culture",
+        "footer": true
+    },
+    {
+        "label": "Services",
+        "link": "/services",
+        "footer": true
+    },
+    {
+        "label": "Partners",
+        "link": "/partners",
+        "footer": false
+    },
+    {
+        "label": "Stories",
+        "link": "/stories",
+        "footer": true
+    },
+    {
+        "label": "Careers",
+        "link": "/careers",
+        "footer": true
+    },
+    {
+        "label": "Events",
+        "link": "/events",
+        "footer": false
+    },
+    {
+        "label": "Contact",
+        "link": "/contact",
+        "footer": true
+    }
+]

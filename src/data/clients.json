@@ -1,0 +1,114 @@
+[{
+        "label": "ABN-AMRO",
+        "img": {
+            "path": "images/clients/abn.png",
+            "alt": "ABN-AMRO"
+        }
+    },
+    {
+        "label": "Adidas",
+        "img": {
+            "path": "images/clients/adidas.png",
+            "alt": "Adidas"
+        }
+    },
+    {
+        "label": "KLM",
+        "img": {
+            "path": "images/clients/klm.png",
+            "alt": "KLM"
+        }
+    },
+    {
+        "label": "Microsoft",
+        "img": {
+            "path": "images/clients/microsoft.png",
+            "alt": "Microsoft"
+        }
+    },
+    {
+        "label": "Mona",
+        "img": {
+            "path": "images/clients/mona.png",
+            "alt": "Mona"
+        }
+    },
+    {
+        "label": "Nivea",
+        "img": {
+            "path": "images/clients/nivea.png",
+            "alt": "Nivea"
+        }
+    },
+    {
+        "label": "Nationale Nederlanden",
+        "img": {
+            "path": "images/clients/nn.png",
+            "alt": "Nationale Nederlanden"
+        }
+    },
+    {
+        "label": "Oxxio",
+        "img": {
+            "path": "images/clients/oxxio.png",
+            "alt": "Oxxio"
+        }
+    },
+    {
+        "label": "Pathe",
+        "img": {
+            "path": "images/clients/pathe.png",
+            "alt": "Pathe"
+        }
+    },
+    {
+        "label": "TomTom",
+        "img": {
+            "path": "images/clients/tomtom.png",
+            "alt": "TomTom"
+        }
+    },
+
+    {
+        "label": "Transavia",
+        "img": {
+            "path": "images/clients/transavia.png",
+            "alt": "Transavia"
+        }
+    },
+    {
+        "label": "Triumph",
+        "img": {
+            "path": "images/clients/triumph.png",
+            "alt": "Triumph"
+        }
+    },
+    {
+        "label": "Unilever",
+        "img": {
+            "path": "images/clients/unilever.png",
+            "alt": "Unilever"
+        }
+    },
+    {
+        "label": "Walibi",
+        "img": {
+            "path": "images/clients/walibi.png",
+            "alt": "Walibi"
+        }
+    },
+    {
+        "label": "Zalando",
+        "img": {
+            "path": "images/clients/zalando.png",
+            "alt": "Zalando"
+        }
+    },
+    {
+        "label": "Ziggo",
+        "img": {
+            "path": "images/clients/ziggo.png",
+            "alt": "Ziggo"
+        }
+    }
+]

@@ -1,0 +1,10 @@
+.page-not-found {
+    text-align: center;
+    margin-bottom: 100px;
+
+    @media (max-width: $small-devices) {
+        img {
+            width: 100%;
+        }
+    }
+}

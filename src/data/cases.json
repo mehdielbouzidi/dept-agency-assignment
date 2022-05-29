@@ -1,0 +1,92 @@
+[
+    {
+      "brand": "Bol.com",
+      "title": "A summer island in the Netherlands",
+      "img": {
+        "src": "images/cases/bolcom.png",
+        "alt": "People sliding off a blue waterslide"
+      },
+      "category": "retail"
+    },
+    {
+      "brand": "Kempen",
+      "title": "Not some average banking website",
+      "img": {
+        "src": "images/cases/kempen.png",
+        "alt": "Someone pointing at a piece of paper"
+      },
+      "category": "finance"
+    },
+    {
+      "brand": "Philips",
+      "title": "Beautiful design meets innovative technology",
+      "img": {
+        "src": "images/cases/philips.png",
+        "alt": "Various lamps by Phillips"
+      },
+      "category": "retail"
+    },
+    {
+      "brand": "Gemeentemuseum",
+      "title": "A 100 years of Mondriaan & De Stijl",
+      "img": {
+        "src": "images/cases/gemeentemuseum.png",
+        "alt": "A woman looking at 'art'"
+      },
+      "category": "culture"
+    },
+    {
+      "brand": "Be Lightning",
+      "title": "Delivering clarity on a global scale",
+      "img": {
+        "src": "images/cases/lightning.png",
+        "alt": "Lamppost with buildings in the background"
+      },
+      "category": "finance"
+    },
+    {
+      "brand": "TUI",
+      "title": "Swip to find your next holiday destination",
+      "img": {
+        "src": "images/cases/tui.png",
+        "alt": "Illustration of a man holding a map"
+      },
+      "category": "travel"
+    },
+    {
+      "brand": "Chocomel",
+      "title": "A campaign for the limited edition letter packs",
+      "img": {
+        "src": "images/cases/chocomel.png",
+        "alt": "5 Chocomel packs"
+      },
+      "category": "retail"
+    },
+    {
+      "brand": "JBL",
+      "title": "Live like a champion with Jerome Boateng",
+      "img": {
+        "src": "images/cases/jbl.png",
+        "alt": "Man with JBL headphones on"
+      },
+      "category": "retail"
+    },
+    {
+      "brand": "Zalando",
+      "title": "Innovative SEO and content strategy for Zalando",
+      "img": {
+        "src": "images/cases/zalando.png",
+        "alt": "Two men sketching on a whiteboard"
+      },
+      "category": "retail"
+    },
+    {
+      "brand": "Koninklijke Bibliotheek",
+      "title": "The search for the most influential book ever",
+      "img": {
+        "src": "images/cases/koninklijke-bibliotheek.png",
+        "alt": "Books stacked on top of each other"
+      },
+      "category": "culture"
+    }
+  ]

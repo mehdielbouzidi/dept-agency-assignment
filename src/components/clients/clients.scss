@@ -1,0 +1,25 @@
+.clients {
+    text-align: center;
+    background-color: $light-gray;
+
+    .clients__introduction {
+        max-width: 700px;
+    }
+
+    .clients__grid {
+        display: grid;
+        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(4, 300px);
+        align-items: center;
+
+        @media (max-width: $large-devices) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 200px);
+        
+            .clients__image:nth-child(n + 7) {
+                display: none;
+            }
+        }
+    }
+}
+

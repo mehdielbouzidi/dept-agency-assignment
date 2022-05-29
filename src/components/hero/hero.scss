@@ -1,0 +1,39 @@
+.hero {
+    // White gradient for the background image so that the dark menu hamburger icon stays clearly visible
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.1)), url('../../images/Header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -70px;
+    height: 700px;
+
+    @media (max-width: $small-devices) {
+        margin-bottom: 100px;
+    }
+    
+    .hero__inner {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+
+        .hero__title {
+            font-size: 38rem;
+            font-weight: 100;
+            line-height: 42rem;
+            margin: 0;
+        }
+
+        @media (max-width: $small-devices) {
+            .hero__title {
+                font-size: 16rem;
+            }
+    
+            .button-primary {
+                position: relative;
+                top: 30%;
+                align-self: auto;
+                text-align: center;
+            }
+        }
+    }
+}

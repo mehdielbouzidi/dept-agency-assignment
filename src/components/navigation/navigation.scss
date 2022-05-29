@@ -1,0 +1,63 @@
+.nav, .nav-hidden {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background: $black;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+    
+    .nav__content {
+        position: relative;
+        top: 70px;
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: right;
+        }
+
+        li {
+            border-bottom: 1px solid $dark-gray;
+
+            &:hover {
+                a {
+                    transition: margin-right ease-in 0.1s;
+                    margin-right: 10px;
+                }
+
+                ::before {
+                    @extend .pr-2;
+                    content: '►';
+                    height: 10px;
+                    width: 10px; 
+                    font-size: 4rem;
+                    line-height: 0;
+                    vertical-align: middle;
+                }   
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-size: 9rem;
+            line-height: 10rem;
+            text-transform: uppercase;
+
+            @media (max-width: $small-devices) {
+                font-size: 5rem;
+                line-height: 7rem;
+            }
+        }
+    }
+}
+
+.nav-hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.2s linear, opacity 0.2s linear;
+}
